@@ -35,7 +35,7 @@ public class Main {
         return total;
     }
 
-
+// estos son pruebas de mierda
     public static ArrayList<Integer> leeValores() {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> valores = new ArrayList<>();
