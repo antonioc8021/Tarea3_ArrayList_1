@@ -2,7 +2,7 @@ package Ejer2;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
-    // de verdad que es algo útil
+    // de verdad que es algo útil soolo si lo sabes usar
 public class Persona {
     private String nombre, dni;
     private LocalDate fechaNacimiento;
