@@ -16,4 +16,11 @@ public class Asociacion {
         this.personas = personas;
     }
 
+    @Override
+    public String toString() {
+        return "Asociacion{" +
+                "personas: " + personas +
+                '}';
+    }
+
 }
