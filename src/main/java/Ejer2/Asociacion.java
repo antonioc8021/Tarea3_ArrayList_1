@@ -22,9 +22,9 @@ public class Asociacion {
         System.out.println("Persona añadida correctamente");
     }
 
-    public Persona buscarPersona(String DNI){
-        for (Persona persona : personas){
-            if (persona.getDni().equals(DNI)){
+    public Persona buscarPersona(String DNI) {
+        for (Persona persona : personas) {
+            if (persona.getDni().equals(DNI)) {
                 return persona;
             }
         }
