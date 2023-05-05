@@ -4,12 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Asociacion {
-    ArrayList<Persona> personas=new ArrayList<>();
+    List<Persona> personas;
+
 
     // Constructor por defecto:
+    public Asociacion() {
+        this.personas = new ArrayList<>();
+    }
 
-
-    public Asociacion(ArrayList<Persona> personas) {
+    public Asociacion(List<Persona> personas) {
         this.personas = personas;
     }
+
 }
