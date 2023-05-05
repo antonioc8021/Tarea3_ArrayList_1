@@ -16,10 +16,18 @@ public class Asociacion {
         this.personas = personas;
     }
 
+    // métodos para añadir, buscar personas a la lista de personas:
+    public void anadirPersona(Persona nuevaPersona) {
+        this.personas.add(nuevaPersona);
+        System.out.println("Persona añadida correctamente");
+    }
+
+
+
     @Override
     public String toString() {
         return "Asociacion{" +
-                "personas: " + personas +
+                "\npersonas: " + personas +
                 '}';
     }
 
