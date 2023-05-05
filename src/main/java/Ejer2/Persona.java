@@ -75,7 +75,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona: " +
+        return "\nPersona: " +
                 "\nnombre: " + nombre +
                 "\ndni: " + dni +
                 "\nfechaNacimiento: " + fechaNacimiento;

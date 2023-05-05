@@ -23,12 +23,10 @@ public class Asociacion {
     }
 
 
-
     @Override
     public String toString() {
-        return "Asociacion{" +
-                "\npersonas: " + personas +
-                '}';
+        return "ASOCIACION: " +
+                "\npersonas: " + personas;
     }
 
 }
