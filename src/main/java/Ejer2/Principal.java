@@ -14,6 +14,6 @@ public class Principal {
         Asociacion asociacion2 = new Asociacion();
         asociacion2.anadirPersona(per1);
         asociacion1.anadirPersona(per2);
-
+        System.out.println(asociacion1.buscarPersona("72228550V"));
     }
 }
