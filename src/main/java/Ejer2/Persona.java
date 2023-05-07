@@ -5,7 +5,7 @@ import java.time.format.DateTimeParseException;
 
 // de verdad que es algo útil
 public class Persona {
-    private int cuota;
+    private double cuota;
     private String nombre, dni;
     private LocalDate fechaNacimiento;
 
@@ -70,7 +70,7 @@ public class Persona {
         this.dni = dni;
     }
 
-    public int getCuota() {
+    public double getCuota() {
         return cuota;
     }
 
