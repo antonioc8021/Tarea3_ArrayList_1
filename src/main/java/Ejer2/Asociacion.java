@@ -1,5 +1,6 @@
 package Ejer2;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,6 +26,8 @@ public class Asociacion {
     public Persona buscarPersona(String DNI) {
         for (Persona persona : personas) {
             if (persona.getDni().equals(DNI)) {
+                int edad=persona.getFechaNacimiento().getYear() - LocalDate.now().getYear();
+                // ToDO: crear un bucle con su edad para ver la cuota que debe de pagar cada uno
                 return persona;
             }
         }
