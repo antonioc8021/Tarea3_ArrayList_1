@@ -26,8 +26,16 @@ public class Asociacion {
     public Persona buscarPersona(String DNI) {
         for (Persona persona : personas) {
             if (persona.getDni().equals(DNI)) {
-                int edad=persona.getFechaNacimiento().getYear() - LocalDate.now().getYear();
-                // ToDO: crear un bucle con su edad para ver la cuota que debe de pagar cada uno
+                int edad = LocalDate.now().getYear() - persona.getFechaNacimiento().getYear();
+                if ((edad >= 5) && (edad <= 10)) {
+                    persona.setCuota(1);
+                }
+                if ((edad >= 11) && (edad <= 17)) {
+                    persona.setCuota(2.5);
+                }
+                if (edad >= 18) {
+                    persona.setCuota(3.5);
+                }
                 return persona;
             }
         }

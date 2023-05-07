@@ -74,7 +74,7 @@ public class Persona {
         return cuota;
     }
 
-    public void setCuota(int cuota) {
+    public void setCuota(double cuota) {
         this.cuota = cuota;
     }
 
@@ -87,6 +87,7 @@ public class Persona {
         return "\nPersona: " +
                 "\nnombre: " + nombre +
                 "\ndni: " + dni +
-                "\nfechaNacimiento: " + fechaNacimiento;
+                "\nfecha de nacimiento: " + fechaNacimiento
+                +"\nCuota a pagar: " + cuota;
     }
 }
