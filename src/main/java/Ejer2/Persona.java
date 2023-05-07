@@ -88,6 +88,6 @@ public class Persona {
                 "\nnombre: " + nombre +
                 "\ndni: " + dni +
                 "\nfecha de nacimiento: " + fechaNacimiento
-                +"\nCuota a pagar: " + cuota;
+                + "\nCuota a pagar: " + cuota;
     }
 }
